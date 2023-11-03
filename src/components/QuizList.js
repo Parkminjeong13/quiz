@@ -66,13 +66,13 @@ const QuizList = [
     },
     {
         id: 6,
-        question : "다음 중 display:inline 에 대한 설명으로 올바른 내용을 고르세요.",
-        answer : "마진 탑(margin-top)값의 설정이 불가능하다.",
+        question : "CSS에서 box-sizing 속성의 기본 값은?",
+        answer : "content-box",
         view: {
-            number1 : "줄 바꿈이 가능하다.",
-            number2 : "한 라인을 모두 차지하는 특징이 있다.",
-            number3 : "마진 탑(margin-top)값의 설정이 불가능하다.",
-            number4 : "display:inline 요소의 자식으로는 반드시 inline 요소만 가능하다."
+            number1 : "border-box",
+            number2 : "content-box",
+            number3 : "padding-box",
+            number4 : "margin-box"
         },
         hint: "",
         type: "css"
@@ -105,13 +105,13 @@ const QuizList = [
     },
     {
         id: 9,
-        question : "자바스크립트 객체를 생성할 때 사용하는 키워드는?",
-        answer : "new",
+        question : "JavaScript에서 '===' 연산자의 역할은?",
+        answer : "값과 타입이 모두 같은지 비교",
         view: {
-            number1 : "creat",
-            number2 : "+",
-            number3 : "new",
-            number4 : "make"
+            number1 : "값이 같은지 비교",
+            number2 : "타입이 같은지 비교",
+            number3 : "값과 타입이 모두 같은지 비교",
+            number4 : "값이 다른지 비교"
         },
         hint: "",
         type: "js"
